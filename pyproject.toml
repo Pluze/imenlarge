@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imenlarge"
+version = "1.0.0"
+description = "Guide reference-image generation with semantic and multiscale feedback"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24,<3", "Pillow>=10,<13", "scipy>=1.10,<2", "reportlab>=4,<5"]
+
+[project.urls]
+Repository = "https://github.com/Pluze/imenlarge"
+
+[project.scripts]
+imenlarge = "imenlarge.cli:main"
+restore-review = "imenlarge.review:main"
+restore-prompt = "imenlarge.prompt:main"
+
+[tool.setuptools]
+packages = ["imenlarge"]
+package-dir = {imenlarge = "skills/imenlarge/scripts"}

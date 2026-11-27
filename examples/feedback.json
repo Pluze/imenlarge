@@ -1,0 +1,9 @@
+{
+  "region": "overlap",
+  "observed": "A bright gap separates the near edge from its shadow.",
+  "change": "Restore the shared boundary under the existing light.",
+  "preserve": "Keep the far surface continuous on both sides of the overlap.",
+  "retained": [
+    "The shadow broadens toward the right."
+  ]
+}

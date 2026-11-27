@@ -1,0 +1,19 @@
+{
+  "round": null,
+  "candidate_sha256": null,
+  "parent_candidate_sha256": null,
+  "dimensions": [],
+  "model": null,
+  "settings": {},
+  "prompt": null,
+  "visual_review": {
+    "frame_and_tone": null,
+    "regions": {},
+    "native_quality": null
+  },
+  "decision": null,
+  "next_change": null,
+  "retained": [],
+  "round_trip_observations": {},
+  "selection_reason": null
+}
